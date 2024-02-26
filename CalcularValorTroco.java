@@ -3,7 +3,7 @@ public class CalcularValorTroco {
 	public static void main(String[]args) {
 		
 // O  Programa que ler o valor de um produto e valor pago pelo cliente, faz o cálculo do valor de troco e mostra na tela.
-		
+		Double valorDigitadoCliente, resultado;
 		Scanner Ler1 = new Scanner(System.in);
 		
 		System.out.print("Olá, digite o valor do produto: ");
@@ -12,9 +12,9 @@ public class CalcularValorTroco {
 		System.out.print("Digite quantidade passada pelo clietne:  ");
 		Double valorDigitadoCliente = Ler1.nextDouble();
 		
-		Double resulto = valorDigitadoCliente - valorProduto;
+		resultado = valorDigitadoCliente - valorProdudo;
 			
-		System.out.println("Troco: " + resulto);
+		System.out.println("Troco: " + resultado);
 		
 		Ler1.close();
 		
